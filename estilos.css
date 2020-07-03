@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  background-color: #dfe6e9;
+}
+
+h1 {
+  font-size: 3.8rem;
+  align-content: center;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+.titulo {
+  text-align: center;
+}
+.instrucciones {
+  text-align: center;
+}
+
+.load {
+  border-style: dotted;
+  padding: 60px;
+  font-size: 20px;
+  border-color: gray;
+  text-align: center;
+}
+table {
+  border: none;
+}
+td {
+  border: none;
+  padding: 5px;
+  background-color: #636e72;
+  text-align: center;
+  cursor: pointer;
+}

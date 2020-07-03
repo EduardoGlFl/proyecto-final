@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta tittle="author" content="Eduardo González Flores" />
+    <title>Práctica Final</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <script type="text/javascript" src="simple-excel.js"></script>
+  </head>
+  <body>
+    <h1 class="titulo">Convert csv files into dynamic tables</h1>
+    <h3 class="instrucciones">
+      To upload your csv files, drag the file to the box or use the button
+    </h3>
+    <center>
+      <form method="post" action="#" enctype="multipart/form-data">
+        <input
+          class="load"
+          type="file"
+          id="fileInputCSV"
+          name="archivoupload"
+          accept=".csv"
+          required
+        />
+        <table id="result"></table>
+        <input type="button" id="fileExport" hidden="true" />
+      </form>
+    </center>
+
+    <script type="text/javascript" src="csvConvert.js"></script>
+  </body>
+</html>
